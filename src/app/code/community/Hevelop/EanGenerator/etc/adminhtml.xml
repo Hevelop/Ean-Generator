@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <hevelop_eangenerator>
+                                        <title>Ean Generator</title>
+                                    </hevelop_eangenerator>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

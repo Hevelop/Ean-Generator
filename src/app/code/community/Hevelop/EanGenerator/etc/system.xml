@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <hevelop_eangenerator translate="label">
+            <label>Ean Generator</label>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>0</show_in_website>
+            <show_in_store>0</show_in_store>
+            <tab>hevelop</tab>
+            <groups>
+                <general>
+                    <label>General</label>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <expanded>1</expanded>
+                    <fields>
+                        <enabled translate="label">
+                            <label>Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </enabled>
+                        <prefix translate="label comment">
+                            <label>Enable key-printing</label>
+                            <comment>Use project code. Eg: ABC</comment>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <frontend_type>text</frontend_type>
+                            <depends><enabled>1</enabled></depends>
+                        </prefix>
+                    </fields>
+                </general>
+            </groups>
+        </hevelop_eangenerator>
+    </sections>
+</config>
