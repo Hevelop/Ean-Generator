@@ -25,6 +25,7 @@
             <hevelop_eangenerator_setup>
                 <setup>
                     <module>Hevelop_EanGenerator</module>
+                    <class>Hevelop_EanGenerator_Model_Resource_Setup</class>
                 </setup>
             </hevelop_eangenerator_setup>
         </resources>
@@ -32,7 +33,7 @@
             <catalog_product_save_before>
                 <observers>
                     <hevelop_eangenerator_catalog_product_save_before>
-                        <class>hevelop_eanGenerator/observer</class>
+                        <class>hevelop_eangenerator/observer</class>
                         <method>setEanBeforeSave</method>
                     </hevelop_eangenerator_catalog_product_save_before>
                 </observers>
