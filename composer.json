@@ -4,7 +4,8 @@
   "type": "magento-module",
   "description": "Magento 1 auto generation ean 13 digits for products",
   "require": {
-    "magento-hackathon/magento-composer-installer": "*"
+    "magento-hackathon/magento-composer-installer": "*",
+    "steverobbins/magento-shell": "^1.0"
   },
   "authors": [
     {

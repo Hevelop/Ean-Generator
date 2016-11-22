@@ -1,2 +1,3 @@
-src/app/code/community/Hevelop/EanGenerator     app/code/community/Hevelop/EanGenerator
-src/app/etc/modules/*    app/etc/modules/
+src/app/code/community/Hevelop/EanGenerator      app/code/community/Hevelop/EanGenerator
+src/app/etc/modules/Hevelop_EanGenerator.xml     app/etc/modules/Hevelop_EanGenerator.xml
+src/shell/hevelop_ean-generator                  shell/hevelop_ean-generator

@@ -28,7 +28,7 @@
                         </enabled>
                         <prefix translate="label comment">
                             <label>Enable key-printing</label>
-                            <comment>Use project code. Eg: ABC</comment>
+                            <comment>Use custom code. Eg: 99</comment>
                             <sort_order>20</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>0</show_in_website>
