@@ -18,6 +18,10 @@ class Hevelop_EanGenerator_Model_Observer
             return $this;
         }
 
+        if (empty($_product->getId())) {
+            return $this;
+        }
+
         $_eanPrefix = $eanHelper->getPrefix();
 
         $_eanPrefixLength = strlen($_eanPrefix);
